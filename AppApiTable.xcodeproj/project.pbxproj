@@ -13,6 +13,7 @@
 		8425CD5726A1C08A00815951 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8425CD5526A1C08A00815951 /* Main.storyboard */; };
 		8425CD5926A1C08B00815951 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8425CD5826A1C08B00815951 /* Assets.xcassets */; };
 		8425CD5C26A1C08B00815951 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8425CD5A26A1C08B00815951 /* LaunchScreen.storyboard */; };
+		8425CD6426A1D03F00815951 /* structJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8425CD6326A1D03F00815951 /* structJson.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8425CD5826A1C08B00815951 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8425CD5B26A1C08B00815951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8425CD5D26A1C08B00815951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8425CD6326A1D03F00815951 /* structJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = structJson.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				8425CD4F26A1C08A00815951 /* AppDelegate.swift */,
 				8425CD5126A1C08A00815951 /* SceneDelegate.swift */,
 				8425CD5326A1C08A00815951 /* ViewController.swift */,
+				8425CD6326A1D03F00815951 /* structJson.swift */,
 				8425CD5526A1C08A00815951 /* Main.storyboard */,
 				8425CD5826A1C08B00815951 /* Assets.xcassets */,
 				8425CD5A26A1C08B00815951 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				8425CD5426A1C08A00815951 /* ViewController.swift in Sources */,
 				8425CD5026A1C08A00815951 /* AppDelegate.swift in Sources */,
+				8425CD6426A1D03F00815951 /* structJson.swift in Sources */,
 				8425CD5226A1C08A00815951 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 36UGUWSVU4;
 				INFOPLIST_FILE = AppApiTable/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 36UGUWSVU4;
 				INFOPLIST_FILE = AppApiTable/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
