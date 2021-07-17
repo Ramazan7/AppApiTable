@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8420457326A32392005115CC /* dataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8420457226A32392005115CC /* dataViewController.swift */; };
 		8425CD5026A1C08A00815951 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8425CD4F26A1C08A00815951 /* AppDelegate.swift */; };
 		8425CD5226A1C08A00815951 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8425CD5126A1C08A00815951 /* SceneDelegate.swift */; };
 		8425CD5426A1C08A00815951 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8425CD5326A1C08A00815951 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		7D7F54BE99CE07F0C4F5D69A /* Pods_AppApiTable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppApiTable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8420457226A32392005115CC /* dataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataViewController.swift; sourceTree = "<group>"; };
 		8425CD4C26A1C08A00815951 /* AppApiTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppApiTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8425CD4F26A1C08A00815951 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8425CD5126A1C08A00815951 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				8425CD4F26A1C08A00815951 /* AppDelegate.swift */,
 				8425CD5126A1C08A00815951 /* SceneDelegate.swift */,
 				8425CD5326A1C08A00815951 /* ViewController.swift */,
+				8420457226A32392005115CC /* dataViewController.swift */,
 				8425CD6326A1D03F00815951 /* structJson.swift */,
 				8425CD5526A1C08A00815951 /* Main.storyboard */,
 				8425CD5826A1C08B00815951 /* Assets.xcassets */,
@@ -91,7 +94,6 @@
 				A747DFF47F039A13C79E623C /* Pods-AppApiTable.debug.xcconfig */,
 				FE2379443992438178677DF4 /* Pods-AppApiTable.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -209,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8420457326A32392005115CC /* dataViewController.swift in Sources */,
 				8425CD5426A1C08A00815951 /* ViewController.swift in Sources */,
 				8425CD5026A1C08A00815951 /* AppDelegate.swift in Sources */,
 				8425CD6426A1D03F00815951 /* structJson.swift in Sources */,
