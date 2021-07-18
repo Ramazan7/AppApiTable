@@ -36,7 +36,7 @@ class dataViewController: UIViewController {
     
         view.backgroundColor = UIColor(cgColor: #colorLiteral(red: 0.9529411793, green: 0.6862745285, blue: 0.1333333403, alpha: 1))
         let label = UILabel()
-        print(structData?.ingredients.count)
+       // print(structData?.ingredients.yeast)
         label.text = structData?.name
         view.addSubview(label)
         label.snp.makeConstraints { maker in

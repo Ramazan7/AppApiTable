@@ -14,32 +14,34 @@ struct structJson: Decodable {
     let first_brewed:String
     let description:String
     let image_url:String
-    let ingredients:ingredients
+ //   let ingredients:ingredients?
+}
+    struct ingredients:Decodable {
+        
+        
+        let yeast:String
+        let malt:maltt
+        struct maltt:Decodable {
+            let name:String
+            struct amount:Decodable {
+                let value:Double
+                let unit:String
+            }
+        }
+        
+        struct hops:Decodable {
+            let name:String
+            let amount:amount
+            let add:String
+            let attribute:String
+            struct amount:Decodable {
+                let value:Double
+                let unit:String
+            }
+        }
+        
+        
+    
 }
 
-struct ingredients:Decodable {
-    
-    
-    let yeast:String
-    let malt:maltt
-    struct maltt:Decodable {
-        let name:String
-        struct amount:Decodable {
-            let value:Double
-            let unit:String
-        }
-    }
-    
-    struct hops:Decodable {
-        let name:String
-        
-        struct amount:Decodable {
-            let value:Double
-            let unit:String
-        }
-    }
-    
-    struct malt:Decodable {
-        <#fields#>
-    }
-}
+
